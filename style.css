@@ -136,3 +136,17 @@ h2, h3 {
 	clear: both;
 	visibility: hidden;
 }
+
+#menuDroite {
+	position:fixed;
+	right:0;
+	top:50%;
+	background-color:#65292d;
+	border-radius:10px 0 0 10px;
+	padding:0 15px;
+}
+
+#menuDroite h1 a {
+	color:#ffcd9a;
+	text-decoration:none;
+}
