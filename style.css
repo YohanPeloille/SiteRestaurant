@@ -12,7 +12,6 @@ nav {
 	height : 100%;
 	width : 18%;
 	padding : 1%;
-	min-width:170px;
 }
 
 nav a {
@@ -44,7 +43,7 @@ nav hr {
 }
 
 .menuGauche {
-	background-color:pink;
+	background-color:#ffcd9a;
 	border-radius:10px;
 	margin-top:10px;
 	text-align:center;
@@ -54,6 +53,7 @@ nav hr {
 .menuGauche ul {
 	list-style-type:none;
 	text-align:left;
+	list-style-image:url('images/coche.jpg');
 }
 
 .menuGauche hr {
@@ -68,10 +68,25 @@ nav hr {
 /*fin menu gauche */
 
 #cadre_droit {
+	display:inline-block;
 	background : url("images/fond.jpg") fixed right;
 	width : 80%;
 	height : 100%;
 	float : right;
+	min-width:750px;
+	margin-left:20%;
+}
+
+@media screen and (max-width:1200px) {
+	nav {
+		width:200px;
+		padding:10px;
+	}
+	
+	#cadre_droit {
+		margin-left:220px;
+		float:none;
+	}
 }
 
 .clear {
