@@ -12,37 +12,60 @@ nav {
 	height : 100%;
 	width : 18%;
 	padding : 1%;
-}
-
-.etoile {
-	display : inline;
-	width : 16%;
-	margin-left : 11%;
+	min-width:170px;
 }
 
 nav a {
 	display : block;
-	color : #FFFFFF;
+	color :#65292d;
 	text-decoration : none;
 }
 
 nav img {
 	display: block;
-	margin : auto;
+	margin : 0 auto;
 	width : 70%;
+	border-radius:10px;
 }
 
-p  a {
-	margin-left : 15%;
+nav hr {
+	height:5px;
+	background-color:white;
 }
 
-#hr_menu {
-	width : 75%;
-	margin-left : 15%;
+#etoiles {
+	text-align:center;
+}
+
+#etoiles img{
+	display : inline;
+	width:20%;
+	margin:5%;
+}
+
+.menuGauche {
+	background-color:pink;
+	border-radius:10px;
+	margin-top:10px;
+	text-align:center;
+	padding-bottom:1px;
+}
+
+.menuGauche ul {
+	list-style-type:none;
+	text-align:left;
+}
+
+.menuGauche hr {
+	height:5px;
+	background-color:#65292d;
+	width:75%;
+	float:right;
+	margin-top:-10px;
+	margin-bottom:1px;
 }
 
 /*fin menu gauche */
-
 
 #cadre_droit {
 	background : url("images/fond.jpg") fixed right;
